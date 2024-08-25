@@ -1,0 +1,92 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+
+.navbar{
+    padding-left: 5%;
+    padding-right: 5%;
+    background-color: rgba(0, 0, 0, 0.634);
+}
+
+.nav-link{
+    color: white;
+    margin-left: 30px;
+    font-size: 14px;
+}
+
+.nav-link:hover{
+    color: #d80001;
+}
+
+.init-header{
+    width: 90%;
+    margin-left: 5%;
+    display: grid;
+    align-items: center;
+    text-align: center;
+    margin-top: 200px;
+    color: rgb(212, 210, 210);
+}
+
+
+.conheca-button{
+    width: 24%;
+    height: 50px;
+    border: none;
+    border-radius: 2px;
+    margin-left: 38%;
+    margin-top: 30px;
+    background-color: #d80001;
+    background: linear-gradient(45deg, #d80001, #ff462f);
+    color: white;
+}
+
+.conheca-button:hover{
+    background: linear-gradient(45deg, #ff462f, #d80001);
+}
+
+.login{
+    width: 200px;
+    height: 40px;
+    border: none;
+    border-radius: 2px;
+    background-color: #d80001;
+    background: linear-gradient(45deg, #d80001, #ff462f);
+    color: white;
+}
+
+.login:hover{
+    background: linear-gradient(45deg, #ff462f, #d80001);
+}
+
+header{
+    background-image: url(../pictures/fotosheader/FEDERAÇÃO\ GAÚCHA\ DE\ MUAYTHAI\ TRADICIONAL\ \(1\)\ \(1\).jpg);
+    background-position: center center; /* Centraliza a imagem vertical e horizontalmente */
+    
+   
+background-repeat: no-repeat; /* Evita a repetição da imagem */
+    background-size: cover; /* Ajusta a imagem para cobrir todo o fundo */
+    height: 650px;
+}
+
+/* .init-header {
+    font-size: 2rem;
+} */
+
+.init-header h1 {
+    display: inline-block;
+    transition: transform 0.1s linear;
+    font-weight: bold;
+    font-size: 60px;
+    transition: transform 0.1s linear;
+    color: rgb(199, 199, 199); /* Define a cor interna do texto */
+text-shadow:     
+1px 1px 0 black,
+1px 1px 0 black,
+1px 1px 0 black,
+1px 1px 0 black; /* Cria a borda */
+}
+
+    
